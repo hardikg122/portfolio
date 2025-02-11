@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This page benefits from the main css and also from the about-me css, that is why all 3 is linked -->
+    <link rel="stylesheet" type="text/css" href="style-about-me.css">
+    <link rel="stylesheet" type="text/css" href="style-portfolio.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Use align center accordingly as it my center vertically the image or the text. Or if you do not want to use it at all, then just delete it -->
+    <!-- project1 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="main-title padding-top">Optimizing Bus Scheduling for Atal Indore City Transport System (AICTSL)</h3>
+            <p> </p>
+            <p>Indore, India, faces significant traffic congestion and inefficient public transportation, 
+                prompting the Atal Indore City Transport Service Ltd. (AICTSL) to implement a Bus Rapid Transit System (BRTS). 
+                However, determining the optimal number of buses required during peak and non-peak hours remained a challenge, 
+                balancing passenger demand with operational efficiency. This project addressed the issue by analyzing passenger 
+                flow data and using Monte Carlo simulations in R Studio to optimize bus headways and fleet size. 
+                The results indicated that 18–21 buses were needed during peak hours and 5 buses during non-peak hours, 
+                with backup buses for contingencies. By optimizing scheduling, the study enhances service reliability, 
+                minimizes wait times, and improves overall transit efficiency, offering a scalable solution for urban mobility 
+                challenges.
+            </p>
+            <p class="center">Links:
+                <span class="center">
+                    <a class="link colorful-letter" href="https://github.com/hardikg122/Transportation_Analysis" target="_blank">Github</a>
+            </p>
+            <p class="padding-top"><a href="project1.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center padding-top align-center">
+            <p><a href="project1.html"><img class="max-width-2" src="assets/project1.png" alt="project1"></a>
+        </section>
+    </section>
+
+    <!-- project2 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="main-title padding-top">Market Analysis of Airbnb Listings in Paris</h3>
+            <p> </p>
+            <p>This project focuses on a comprehensive market analysis of Airbnb listings in the Batignolles neighborhood of Paris, 
+                conducted entirely using R. The primary objective was to analyze factors influencing pricing, availability, 
+                and guest satisfaction while providing data-driven insights for Airbnb hosts and customers. The analysis involved
+                data preprocessing, exploratory data analysis (EDA), visualization, and predictive modeling. The dataset underwent 
+                extensive cleaning, including handling missing values through imputation techniques, feature engineering, and variable 
+                transformations to ensure accuracy. Various statistical analyses were performed, including summary statistics, 
+                correlation analysis, and price distribution exploration to understand key trends.</p>
+            <p>To further explore market dynamics, multiple visualization techniques such as histograms, boxplots, heatmaps, 
+                and word clouds were utilized. Additionally, predictive models were implemented, including multi-linear regression 
+                (MLR) for price prediction, K-Nearest Neighbors (KNN) to classify listings based on amenities, Naïve Bayes classification 
+                to predict instant booking availability, and decision trees to classify review scores into categories. Moreover,
+                 K-means clustering was applied to group listings based on common attributes. The results from these analyses 
+                 highlight critical factors affecting Airbnb rentals, such as room type, location, and amenities, offering actionable
+                  insights for hosts to optimize their pricing strategies and enhance customer satisfaction.</p>
+            <p class="center">Link:
+                <span class="bold colorful-letter">
+                    <a class='link' href="assets/Conjoint analysis.pdf" target="_blank">Read more</a>        
+                </span></p>
+            <p class="padding-top"><a href="project2.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center padding-top align-center">
+            <p><a href="project2.html"><img class="max-width-2" src="assets/project2.png" alt="project2"></a></p>
+        </section>
+    </section>
+
+    <!-- project3 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify">
+            <h3 class="main-title padding-top">Financial Forecasting for Otis: A Data-Driven Three-Statement Model</h3>
+            <p> </p>
+            <p>In this financial model for Otis Worldwide, I built a three-statement financial projection, covering the Income Statement, Balance Sheet, and Cash Flow Statement from 2019 to 2026. The model ensures accuracy by incorporating key business drivers rather than relying on simple percentage growth assumptions.
+                For revenue, I projected the New Equipment Market Size and estimated Otis’ market share over time. Additionally, I modeled Service Revenue, factoring in service unit growth and changes in revenue per unit to capture both volume and pricing effects..</p>
+            <p>Cost projections include COGS for products and services and operating expenses (OpEx) as a percentage of revenue, allowing for a structured calculation of gross profit, operating income, and net income. I also accounted for tax rates and non-controlling interest (NCI) as part of the profitability assessment.
+
+                For the Balance Sheet, I linked key working capital items such as Accounts Receivable, Inventory, and Accounts Payable to revenue and COGS, ensuring realistic projections. Operating lease assets, contract liabilities, and accrued liabilities were also included.
+                The Cash Flow Statement reconciles net income with actual cash movements. It covers operating cash flow adjustments, capital expenditures (CapEx), acquisitions, and financing activities such as debt issuances, repayments, dividends, and stock repurchases. I also ensured compliance with the case study’s $3 billion minimum cash balance requirement.
+                This model provides a realistic and dynamic financial forecast, integrating revenue drivers, cost structures, and financing activities. By using a driver-based approach, the projections align with business conditions rather than simple assumptions. Let me know if you’d like any refinements.</p>
+            <p class="center">Link:
+                <span class="bold colorful-letter">
+                    <a class='link' href="assets/Financial_Analysis_of_Otis.pdf" target="_blank">Read more</a>        
+                </span></p>
+            </p>
+            <p class="padding-top"><a href="project3.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center padding-top align-center">
+            <p><a href="project3.html"><img class="max-width-2" src="assets/project3.png" alt="project3"></a>
+        </section>
+    </section>
+
+    <!-- footer -->
+    <footer>@HardikGupta 2025</footer>
+</body>
+
+</html>

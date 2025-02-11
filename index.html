@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>My portfolio website</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h1 class="medium-spacing">Hello, I am</h1>
+            <h1 class="large">Hardik Gupta</h1>
+            <p class="justify">Data enthusiast with a knack for analytics and AI-driven insights.</p>
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="assets/profile-pic.png" alt="profile-picture">
+        </section>
+    </header>
+
+
+    <!-- quote -->
+    <article class="baby-pink">
+        <p class="quote uppercase">If you listen closely everything has a story to tell even the data</p>
+        <p>I turn chaos into charts, numbers into narratives, and data into decisions—because every dataset has a story waiting to be told.</p>
+    </article>
+
+    <!-- about me -->
+    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">About me</p>
+            <p>I'm a data enthusiast who thrives on solving complex problems with structured analysis and creative insights. Data analytics excites me because it blends logical precision with real-world impact, allowing me to uncover patterns and drive smarter decisions.</p>
+            <p>optimize strategies, forecast trends, and streamline operations. I’m continuously refining my skills in Python, SQL, machine learning, and business intelligence tools to stay ahead in the evolving world of data.</p>
+            <p>I enjoy bridging the gap between data and decision-making, ensuring that numbers tell a meaningful story. Whether it's predictive modeling, automation, or visualization, I’m passionate about turning raw data into actionable insights that fuel innovation and efficiency. </p>
+            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+        </section>
+    </section>
+
+    <!-- skills -->
+    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
+    <section class="skills-section">
+        <h3 class="main-title center padding">Skills</h3>
+    
+        <div class="skills-wrapper">
+            <!-- Technical Skills Section -->
+            <section class="skills-category">
+                <h4>Technical Skills</h4> <!-- Heading now above -->
+                <section class="skills-container">
+                    <div class="skill-item">
+                        <p>SQL</p>
+                        <img src="assets/sql.png" alt="SQL Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>PYTHON</p>
+                        <img src="assets/python.png" alt="PYTHON Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>MACHINE LEARNING</p>
+                        <img src="assets/ai.png" alt="MACHINE LEARNING Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>EXCEL</p>
+                        <img src="assets/excel.png" alt="EXCEL Skill" class="skill-image">
+                    </div>
+                </section>
+            </section>
+    
+            <!-- Professional Skills Section (Below Technical) -->
+            <section class="skills-category professional-skills">
+                <h4>Professional Skills</h4> <!-- Heading now above -->
+                <section class="skills-container">
+                    <div class="skill-item">
+                        <p>Communication</p>
+                        <img src="assets/communication.png" alt="Communication Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>Teamwork</p>
+                        <img src="assets/leader.png" alt="Teamwork Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>Problem Solving</p>
+                        <img src="assets/Problem solving-rafiki.png" alt="Problem Solving Skill" class="skill-image">
+                    </div>
+                    <div class="skill-item">
+                        <p>Adaptability</p>
+                        <img src="assets/Project Stages-bro.png" alt="Adaptability Skill" class="skill-image">
+                    </div>
+                </section>
+            </section>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
+    <section>
+        <h3 class="main-title center padding">Projects I am currently working on</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/project1.png" alt="project1">
+            <p class="padding bold center">Optimizing Bus Scheduling for Atal Indore City Transport System (AICTSL)</p>
+            <p>This project optimized bus scheduling for Indore’s BRTS by analyzing passenger demand and using simulations in R Studio to determine the ideal number of buses for peak and non-peak hours. The findings help improve efficiency, reduce wait times, and enhance public transport reliability.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/project2.png" alt="project2">
+            <p class="padding bold center">Market Analysis of Airbnb Listings in Paris</p>
+            <p>This project is a market analysis of Airbnb listings in Batignolles, Paris, conducted using R to explore factors influencing pricing, availability, and guest satisfaction. Through data preprocessing, visualization, predictive modeling, and clustering, the analysis provides key insights for optimizing Airbnb listings and improving customer experience</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/project3.png" alt="project1">
+            <p class="padding bold center">Financial Forecasting for Otis: A Data-Driven Three-Statement Model</p>
+            <p>TI developed a three-statement financial model for Otis, incorporating dynamic revenue projections, cost structures, and key financial metrics. The model integrates the Income Statement, Balance Sheet, and Cash Flow Statement, capturing working capital changes, investments, debt, stock repurchases, and dividends to provide a realistic financial outlook.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+
+    </section>
+
+    <!-- contact me -->
+    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
+    <section id="contact-me" class="grid-system-2 w-900 padding">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/Contact-me-img.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://www.linkedin.com/in/hardik-gupta-915b4116b/" target="_blank"><img class="logo" src="assets/linkedin.png"
+                            alt=""></a>
+                </span>
+                <span>
+                    <a href="https://github.com/hardikg122/hardikg122" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="Hardikgupta122@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
+                </span>
+            </section>
+        </section>
+    </section>
+
+    <!-- special thanks -->
+    <!-- Here you can see the free resources I've used for the logos and illustrations. Do not forget to give credit to the creators of the free stuffs use may use additionally -->
+    <section>
+        <p class="small thanks justify w-900 padding-left">*Thanks for the illustration:
+            <a class="link colorful-letter" href="https://storyset.com/work" target="_blank">work illustrations</a> by
+            Storyset
+
+        </p>
+        <p class="small thanks justify w-900 padding-left">*Thanks for the icons:
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Flatart" target="_blank">flatart,
+                </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/font-awesome" target="_blank">font
+                    awesome, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/fluent-designsystem"
+                    target="_blank">microsoft, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Chanut-is" target="_blank">chanut is
+                    indurstries, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Kalashnyk" target="_blank">kalash
+                </a></span>
+            on Iconfinder
+        </p>
+    </section>
+
+    <!-- footer -->
+    <!-- waits for you to take over! -->
+    <footer>@HardikGupta 2025</footer>
+</body>
+
+</html>
