@@ -649,7 +649,7 @@ footer{
 }
 
 /* DARK THEME */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         background-color: rgb(72, 71, 71);
         color: white;
@@ -727,4 +727,4 @@ footer{
             margin-right: 10px;
         }
     }
-}
+} */
